@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.bw {
+    background: url(img/ps.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.bw p {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    color: #000912;
+    background: #cbd5e1;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 25%;
+    margin: 5px auto 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+/* .temp {
+    background: url(img/temp.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.na {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    color: #000912;
+    background: #cbd5e1;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 10%;
+    margin: 5px auto 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+.na:hover {
+    background: transparent;
+    color: #cbd5e1;
+    font-weight: 700;
+    border: 1px solid #cbd5e1;
+} */
+
+
+.container {
+    color: #e1e8ed;
+    background: linear-gradient(rgba(203,213,225,0.1), rgba(203,213,205,0.1));
+    width: 55%;
+    margin: auto;
+    padding: 20px 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: 1px solid #e1e8ed;
+    border-right: 1px solid #e1e8ed;
+}
+.container img {
+    width: 90px;
+    cursor: pointer;
+}
+.container h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.container span {
+    color: #67aff7;
+    font-weight: 700;
+}
+.container button {
+    color: #000912;
+    background: #e1e8ed;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 20%;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+.container button:hover {
+    background: transparent;
+    color: #e1e8ed;
+    font-weight: 700;
+    border: 1px solid #e1e8ed;
+}
+
+
+/* .row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.conv {
+    color: #e1e8ed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5));
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: 1px solid #e1e8ed;
+}
+.conv h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.conv h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.conv button {
+    color: #000912;
+    background: #e1e8ed;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+.conv button:hover {
+    background: transparent;
+    color: #e1e8ed;
+    font-weight: 700;
+    border: 1px solid #e1e8ed;
+} */
+
+
+@media (max-width: 768px) {
+    /* .na {
+        width: 45%;
+    } */
+    .container, .conv {
+        width: 90%;
+    }
+    .container h1, .conv h1 {
+        font-size: 35px;
+    }
+    .bw p {
+        width: 80%;
+    }
+    .container button {
+        width: 50%;
+    }
+    /* .row {
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .row button {
+        width: 100%;
+    } */
+}
